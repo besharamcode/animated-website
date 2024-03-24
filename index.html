@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              georgia: "sans-Georgia",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-Noto-Sans bg-black text-white">
+    <main>
+      <div
+        class="header flex justify-between items-center py-4 px-8 fixed top-0 w-full"
+      >
+        <div class="logo ">
+          <img class="w-56" src="./assets/logo.svg" alt="" />
+        </div>
+        <nav>
+          <ul class="flex gap-8 items-center">
+            <li>
+              <a class="font-semibold tracking-wide" href="">PRODUCTS</a>
+            </li>
+            <li>
+              <a class="font-semibold tracking-wide" href="">TEMPLATES</a>
+            </li>
+            <li>
+              <a class="font-semibold tracking-wide" href="">RESOURCES</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-btns">
+          <button class="font-semibold text-sm py-3 px-6">LOG IN</button>
+          <button class="font-semibold text-sm py-3 px-6 bg-white text-black">
+            GET STARTED
+          </button>
+        </div>
+      </div>
+      <div class="hero translate-y-16 relative">
+        <img
+          class="rounded w-40 absolute top-20 right-48"
+          src="https://images.unsplash.com/photo-1711062714228-a668ce5664f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Mnx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+        <img
+          class="rounded w-40 absolute bottom-2 rotate-90 left-72"
+          src="https://images.unsplash.com/photo-1711059985570-4c32ed12a12c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2MXx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+        <div class="heading flex flex-wrap justify-center items-center">
+          <h1
+            class="text-[9rem] tracking-tight leading-none font-semibold w-[65%] text-center mx-auto mt-8 relative select-none"
+          >
+            EVERYTHING
+            <span class="flex justify-center items-center gap-4">
+              <span> TO </span>
+              <span
+                class="font-georgia bg-[#9b4242] px-12 tracking-wide rounded-full py-8 text-[3rem] translate-y-2 w-fit"
+                >BOOK NOW </span
+              >SELL
+            </span>
+            ANYTHING
+          </h1>
+        </div>
+        <p class="text-center translate-y-4 text-2xl">
+          <i class="ri-youtube-fill text-md"></i> WATCH THE ANNOUNCEMENT
+        </p>
+        <div class="mt-8">
+          <p class="text-center">
+            SCROLL DOWN <i class="ri-arrow-down-fill text-lg"></i>
+          </p>
+        </div>
+        <div class="flex gap-4 items-center absolute bottom-4 left-8 text-xl">
+          <i class="ri-twitter-fill"></i>
+          <i class="ri-facebook-circle-fill"></i>
+          <i class="ri-linkedin-fill"></i>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
