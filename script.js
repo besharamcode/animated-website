@@ -17,5 +17,6 @@ tl.from(".hero i", animation);
 
 tl.from("img", {
   ...animation,
-  scale: 0.5,
+  duration: 0.5,
+  scale: 0,
 });
