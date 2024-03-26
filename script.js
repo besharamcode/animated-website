@@ -15,7 +15,7 @@ tl.from(".hero p", animation);
 
 tl.from(".hero i", animation);
 
-tl.from("img", {
+tl.from(".hero img", {
   ...animation,
   duration: 0.5,
   scale: 0,
